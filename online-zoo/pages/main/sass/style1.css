@@ -603,6 +603,9 @@ a {
 @media (max-width: 640px) {
   .header {
     padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
   }
 }
 
@@ -610,6 +613,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 320px) {
+  .header__wrapper a {
+    margin: 0;
+  }
 }
 
 .signature {
@@ -666,7 +674,7 @@ a {
 }
 @media (max-width: 1000px) {
   .promo__wrapper {
-    padding: 0 147px 47px 0;
+    padding: 0px 147px 47px 0;
   }
 }
 @media (max-width: 640px) {
@@ -705,6 +713,7 @@ a {
     width: 237px;
     margin-bottom: 0;
     bottom: 10;
+    margin-top: 40px;
   }
   .promo__content h1 {
     font-size: 5.43rem;

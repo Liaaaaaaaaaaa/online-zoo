@@ -1,9 +1,20 @@
 .header {
     background: $color-dark;
     padding: 14px 0;
+
     @include media-tablet {
         padding: 3px 0;
+         position: fixed;
+         width: 100%;
+         z-index: 100;
     }
+
+    // @include media-mobile {
+       
+    //     // z-index: 100;
+    //     // height: 100%;
+    // }
+
 }
 
 .header__wrapper {
@@ -11,6 +22,11 @@
     align-items: center;
     justify-content: space-between;
     @extend %hover-brand;
+    @include media-mobile {
+        a {
+            margin:  0;
+        }
+    }
 }
 
 
@@ -20,10 +36,12 @@
     font-weight: 500;
     line-height: 140%;
     text-decoration: none;
+
     @include media-tablet {
-        display:none;
+        display: none;
     }
+
     @include media-mobile {
-        display:none;
+        display: none;
     }
 }
