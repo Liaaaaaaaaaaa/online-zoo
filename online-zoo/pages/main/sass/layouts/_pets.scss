@@ -3,6 +3,7 @@
     height: 100%;
     max-width: $max-width;
     margin: auto;
+    overflow: hidden;
     @include media-small_desktop {
         background: $color-flower2 left bottom  no-repeat, $color-flower3  right-bottom  no-repeat;
         background-size: 20% 202px;

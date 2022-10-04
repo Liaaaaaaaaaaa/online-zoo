@@ -599,6 +599,7 @@ a {
 .header {
   background: #000000;
   padding: 14px 0;
+  overflow: hidden;
 }
 @media (max-width: 640px) {
   .header {
@@ -741,6 +742,7 @@ a {
   background: #FFFFFF no-repeat;
   max-width: 1600px;
   margin: auto;
+  overflow: hidden;
 }
 @media (max-width: 1000px) {
   .backstage {
@@ -856,6 +858,7 @@ a {
   height: 100%;
   max-width: 1600px;
   margin: auto;
+  overflow: hidden;
 }
 @media (max-width: 1000px) {
   .pets {
@@ -1094,6 +1097,7 @@ p {
   padding: 69px 0 100px;
   max-width: 1600px;
   margin: auto;
+  overflow: hidden;
 }
 @media (max-width: 1000px) {
   .pick-friend {
@@ -1326,6 +1330,7 @@ p {
   background: url("../../../assets/images/background-testimonials.jpg") right bottom no-repeat;
   max-width: 1600px;
   margin: auto;
+  overflow: hidden;
 }
 @media (max-width: 1000px) {
   .testimonials {
@@ -1502,6 +1507,7 @@ input[type=range]::-webkit-slider-runnable-track {
   background: #000000;
   color: #FFFFFF;
   padding: 41px 0 50px;
+  overflow: hidden;
 }
 @media (max-width: 640px) {
   .footer {

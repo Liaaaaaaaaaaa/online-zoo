@@ -2,7 +2,7 @@
     background: $color-light no-repeat;
     max-width: $max-width;
     margin: auto;
-
+    overflow: hidden;
     @include media-small_desktop {
         background: $color-light no-repeat;
     }

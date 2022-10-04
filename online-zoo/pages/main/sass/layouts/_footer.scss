@@ -2,6 +2,7 @@
     background: $color-dark;
     color: $color-light;
     padding: 41px 0 50px;
+    overflow: hidden;
     @include media-tablet {
         padding: 12px 0;
     }

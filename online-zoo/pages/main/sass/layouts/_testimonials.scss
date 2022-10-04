@@ -3,7 +3,7 @@
     background: url("../../../assets/images/background-testimonials.jpg") right bottom no-repeat;
     max-width: $max-width;
     margin: auto;
-
+    overflow: hidden;
     @include media-small_desktop {
         padding: 100px 0 140px;
     }
