@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    width: 500px;
+    max-width: 500px;
     @include font (10.6496rem, 75%, 700);
     margin: 74px 0 0 73px;
     text-align: center;

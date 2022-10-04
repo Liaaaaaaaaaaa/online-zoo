@@ -107,7 +107,7 @@
     a {
         display: flex;
         flex-direction: row;
-        width: 111px;
+        max-width: 111px;
         align-items: center;
         @include media-tablet {
             width: 100%;
@@ -168,7 +168,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     margin: 0;
-    width: 300px;
+    max-width: 300px;
     justify-content: space-between;
 }
 

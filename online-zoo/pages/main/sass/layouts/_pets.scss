@@ -55,10 +55,10 @@
 }
 .pet {
     @include media-small_desktop {
-        width: 294px;
+        max-width: 294px;
     }
     @include media-tablet {
-        width: 284px;
+        max-width: 284px;
     }
     @include media-mobile {
         width: 100%;
