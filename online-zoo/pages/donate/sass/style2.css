@@ -345,7 +345,7 @@ body {
 }
 
 h1 {
-  width: 500px;
+  max-width: 500px;
   font-style: normal;
   font-weight: 700;
   font-size: 10.6496rem;
@@ -599,10 +599,14 @@ a {
 .header {
   background: #000000;
   padding: 14px 0;
+  overflow: hidden;
 }
 @media (max-width: 640px) {
   .header {
     padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
   }
 }
 
@@ -610,6 +614,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 320px) {
+  .header__wrapper a {
+    margin: 0;
+  }
 }
 
 .signature {
@@ -666,7 +675,7 @@ a {
 }
 @media (max-width: 1000px) {
   .promo__wrapper {
-    padding: 0 147px 47px 0;
+    padding: 0px 147px 47px 0;
   }
 }
 @media (max-width: 640px) {
@@ -681,7 +690,7 @@ a {
 }
 
 .promo__content {
-  width: 465px;
+  max-width: 465px;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 50%;
   color: #FFFFFF;
@@ -689,7 +698,7 @@ a {
 }
 @media (max-width: 1000px) {
   .promo__content {
-    width: 367px;
+    max-width: 367px;
     position: relative;
     bottom: 10px;
     margin-bottom: 37px;
@@ -702,25 +711,26 @@ a {
 }
 @media (max-width: 640px) {
   .promo__content {
-    width: 237px;
+    max-width: 237px;
     margin-bottom: 0;
     bottom: 10;
+    margin-top: 40px;
   }
   .promo__content h1 {
     font-size: 5.43rem;
     margin: 37.8px 0 0 37.8px;
-    width: 255.6px;
+    max-width: 255.6px;
   }
 }
 @media (max-width: 640px) and (max-width: 320px) {
   .promo__content {
-    width: 119px;
+    max-width: 119px;
     margin-right: 28px;
   }
   .promo__content h1 {
     font-size: 2.8rem;
     margin: 19px 0 0 19px;
-    width: 128.2px;
+    max-width: 128.2px;
   }
 }
 
@@ -1109,6 +1119,7 @@ input[type=number] {
   background: #000000;
   color: #FFFFFF;
   padding: 41px 0 50px;
+  overflow: hidden;
 }
 @media (max-width: 640px) {
   .footer {
@@ -1225,7 +1236,7 @@ input[type=number] {
 .network-list a {
   display: flex;
   flex-direction: row;
-  width: 111px;
+  max-width: 111px;
   align-items: center;
 }
 @media (max-width: 640px) {
@@ -1291,7 +1302,7 @@ input[type=number] {
   justify-content: flex-end;
   align-items: flex-end;
   margin: 0;
-  width: 300px;
+  max-width: 300px;
   justify-content: space-between;
 }
 
