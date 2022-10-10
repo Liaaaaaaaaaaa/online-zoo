@@ -884,7 +884,6 @@ a {
   height: 100%;
   max-width: 1600px;
   margin: auto;
-  overflow: hidden;
 }
 @media (max-width: 1000px) {
   .pets {
